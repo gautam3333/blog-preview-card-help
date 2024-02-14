@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Figtree', sans-serif;
+  background-color: #f4d04e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+p {
+  color: #121212;
+}
+
+.card {
+  border: 1px solid #121212;
+  width: 34rem;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  border-right: 1rem solid #121212;
+  border-bottom: 1rem solid #121212;
+  padding: 2rem;
+}
+
+.cover_img {
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.learning_box {
+  width: fit-content;
+  background-color: #f4d04e;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  margin-bottom: 1.8rem;
+}
+
+.date_box {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.headingText {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.headingText:hover {
+  color: #f4d04e;
+  cursor: pointer;
+}
+
+.description {
+  color: #808080;
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+}
+
+.avatarWithName {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.avatar_img {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+}
+
+.avatarWithName h2 {
+  font-weight: 700;
+}
